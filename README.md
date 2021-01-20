@@ -1,4 +1,4 @@
-# Instructions to run
+# Setup
 
 ### Create DB
 psql -U postgres
