@@ -3,9 +3,9 @@
 ### Create DB
 psql -U postgres
 
-CREATE DATABASE warbler;
+CREATE DATABASE twitter_clone;
 
-\c warbler;
+\c twitter_clone;
 
 \dt
 
@@ -16,7 +16,7 @@ python seed.py
 
 psql -U postgres
 
-\c warbler;
+\c twitter_clone;
 
 \dt
 
